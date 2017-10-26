@@ -38,14 +38,14 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(222, 78)
+        Me.GroupBox1.Size = New System.Drawing.Size(335, 78)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "New compte"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(140, 46)
+        Me.Button1.Location = New System.Drawing.Point(254, 45)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
@@ -63,9 +63,9 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(59, 19)
+        Me.TextBox1.Location = New System.Drawing.Point(97, 19)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(157, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(232, 20)
         Me.TextBox1.TabIndex = 0
         '
         'DataGridView1
@@ -73,14 +73,14 @@ Partial Class Form1
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(12, 99)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(222, 150)
+        Me.DataGridView1.Size = New System.Drawing.Size(335, 287)
         Me.DataGridView1.TabIndex = 1
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(246, 261)
+        Me.ClientSize = New System.Drawing.Size(359, 398)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
